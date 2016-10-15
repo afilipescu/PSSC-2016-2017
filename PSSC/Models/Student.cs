@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    interface iDecanat
+    class Student
     {
-        void adaugareMaterie(); 
-        void generareRapoarte();
-        void calculareMedie();
+        void vizualizareSituatie();
     }
 }

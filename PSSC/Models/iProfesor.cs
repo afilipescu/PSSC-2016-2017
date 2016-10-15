@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    interface iDecanat
+    interface iProfesor
     {
-        void adaugareMaterie(); 
-        void generareRapoarte();
-        void calculareMedie();
+        void consultaDiscipline();
+        void introducereSituatie();
+
     }
 }
