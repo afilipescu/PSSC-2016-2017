@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class Class1
+    interface iDecanat
     {
-        //remove or alter this class, then implement your models.  
     }
 }
