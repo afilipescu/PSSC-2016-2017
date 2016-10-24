@@ -8,6 +8,20 @@ namespace Models
 {
     class Student
     {
-        void vizualizareSituatie();
+        private int ID;
+        private string nume;
+        Materie materie;
+           
+        public Student(int ID ,string nume , Materie materie)
+        {
+            this.ID = ID;
+            this.nume = nume;
+            this.materie = materie;
+        }
+
+        private void vizualizareSituatie()
+        {
+        }
+
     }
 }

@@ -6,13 +6,26 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    enum tipMaterie { examen, distribuita };
+    enum tipExamen { examen, distribuita };
     class Materie
     {
-        tipMaterie tipMaterie;
+        tipExamen tipMaterie;
         string nume { get; set; }
+        int numarCredite { get; set; }
+        int prezenta { get; set; }
         float notaFinala { get; set; }
         float notaActivitate { get; set; }
-        int prezenta { get; set; }
+
+
+        public Materie(tipExamen tipMaterie, string nume, int numarCredite, int prezenta, float notaFinala, float notaActivitate)
+        {
+            this.tipMaterie = tipMaterie;
+            this.nume = nume;
+            this.numarCredite = numarCredite;
+            this.prezenta = prezenta;
+            this.notaFinala = notaFinala;
+            this.notaActivitate = notaActivitate;
+        }
+
     }
 }

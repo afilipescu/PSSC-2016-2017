@@ -8,6 +8,13 @@ namespace Models
 {
     class Profesor : iProfesor
     {
+        string nume { get; set; }
+
+
+        public Profesor(string nume)
+        {
+            this.nume = nume;
+        }
 
         public void consultaDiscipline()
         {

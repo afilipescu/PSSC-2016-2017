@@ -9,7 +9,7 @@ namespace Models
     interface iDecanat
     {
         void adaugareMaterie(); 
-        void generareRapoarte();
+       // void generareRapoarte();
         void calculareMedie();
     }
 }
